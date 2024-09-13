@@ -24,18 +24,18 @@
     //   }else{
     //     console.log('Right!');
     //   }
-    const num = 50;
-switch(num){
-case 49:
-    console.log('Неверно');
-    break;
-    case 100:
-        console.log('Неверно');
-        break;
-        case 51:
-            console.log('А ты хорош)');
-            break;
-            default:
-                console.log('Не в этот раз :(');
-                break;
+const humburger = 2;
+const potatoes = 1;
+if(humburger === 3 && fries ){
+    console.log('Все сыты!');
+}else{
+    console.log('Идем в другое место');
 }
+
+
+let johnReport, alexReport,samReport, mariaReport ='done';
+
+console.log(johnReport|| alexReport || samReport || mariaReport);
+
+
+
