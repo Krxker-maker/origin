@@ -17,7 +17,7 @@ const personalMovieDB = {
 
     function rememberMyFilms(){
         for(let i = 0; i < 2; i++){
-            const a = prompt('Один из последних просмотреных фильмов?',''),
+            const a = prompt('Один из последних просмотреных фильмов?','').trim (),
             b =  prompt('Насколько оцените его?','');
             
             if(a != null &&  b != null && a != '' && b!= '' && a.length<50){
@@ -66,3 +66,12 @@ function writeYourGenres(){
     }
 }
 writeYourGenres();
+
+function learnJS(lang,calblack){
+    console.log(`Я учу: ${lang}`);
+    calblack();
+}
+
+learnJS('JavaScript',function(){
+console.log('Я прошел этот урок');
+});
